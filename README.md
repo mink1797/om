@@ -11,22 +11,36 @@ A dashboard backend application.
 
 ### Setup Instructions
 
-1. **Clone the repository** (if you haven't already):
-   ```bash
-   git clone https://github.com/mink1797/om.git
-   cd om
-   ```
+#### Option 1: Clone the repository directly
+If you just want to use or explore the code:
+```bash
+git clone https://github.com/mink1797/om.git
+cd om
+```
 
-2. **For contributors - Fork and setup your own remote**:
-   
-   After forking the repository to your GitHub account, set up your remote:
+#### Option 2: Fork and contribute
+If you want to contribute to the project:
+
+1. **Fork the repository** on GitHub to your own account
+
+2. **Clone your forked repository**:
    ```bash
-   git remote add origin https://github.com/YOURNAME/om-dashboard-backend.git
-   git branch -M main
-   git push -u origin main
+   git clone https://github.com/YOURNAME/om.git
+   cd om
    ```
    
    Replace `YOURNAME` with your GitHub username.
+
+3. **Set up the upstream remote** (to keep your fork in sync):
+   ```bash
+   git remote add upstream https://github.com/mink1797/om.git
+   ```
+
+4. **Ensure you're on the main branch and push**:
+   ```bash
+   git branch -M main
+   git push -u origin main
+   ```
 
 ### Development Workflow
 

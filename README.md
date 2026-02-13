@@ -36,11 +36,11 @@ If you want to contribute to the project:
    git remote add upstream https://github.com/mink1797/om.git
    ```
 
-4. **Ensure you're on the main branch and push**:
-   ```bash
-   git branch -M main
-   git push -u origin main
-   ```
+Note: If your default branch is not named `main`, you can rename it with:
+```bash
+git branch -M main
+git push -u origin main
+```
 
 ### Development Workflow
 
@@ -65,7 +65,3 @@ If you want to contribute to the project:
 ## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
-
-## License
-
-This project is open source and available under the [MIT License](LICENSE).
